@@ -1,4 +1,4 @@
-UCoin specifications:
+#UCoin specifications:
 - Algorithm: X11(PoW&PoS)
 - Max coins: 20M
 - PoW coins: 2.6M(with premine)
@@ -7,3 +7,6 @@ UCoin specifications:
 - PoS started on block: 500(PoW Period: 10% interest per month, after PoW 10% interest per year)
 - PoS Minimal Stake Age: 12 hours
 - PoS Max Stake Age: Unlimited
+
+#Dependencies:
+sudo apt-get install libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libssl-dev build-essential libcurl4-openssl-dev libdb-dev libdb++-dev git libminiupnpc-dev libssl1.0-dev
